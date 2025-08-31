@@ -13,3 +13,5 @@ A simple Node.js application that displays **"Hello World!"** using Express.
    ```bash
    git clone https://github.com/rahmaalghanaim-blip/My-Project.git
    cd my-project
+npm install
+npm start
