@@ -1,17 +1,12 @@
 # My Node App
 
-A simple Node.js application that displays **"Hello World!"** using Express.
+A simple Node.js app using Express that returns "Hello World!".
 
-
-
-- Node.js 18
-- Docker 
-
-
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/rahmaalghanaim-blip/My-Project.git
-   cd my-project
+## Run locally
 npm install
 npm start
+# open http://localhost:3000
+
+## Docker
+docker build -t my-node-app .
+docker run -p 3000:3000 my-node-app
